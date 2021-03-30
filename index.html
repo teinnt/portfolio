@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taylor's Portfolio</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/67107901bf.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Projects</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Home -->
+    <section class="home">
+      <div class="hi block">
+        <h2 class="hi-welcome">Hi, I am Taylor</h2>
+        <img src="img/me-01.png" />
+      </div>
+
+      <div class="role block">
+        <h2>My role is a Software Developer</h2>
+        <img src="img/developer.png" />
+      </div>
+
+      <div class="why-developer block">
+        <h2 class="why-developer because">Because...</h2>
+        <div class="developer-is-cool">
+          <h2 class="developer-is-cool__text">Developer is very cool</h2>
+          <img src="img/cool.png" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about">
+      <h1 class="header about__about-me">About me</h1>
+      <div class="living block">
+        <h2>I am living in Auckland</h2>
+        <img src="img/city.png" />
+      </div>
+
+      <div class="about__studying block">
+        <h2 class="about__studying__in">I am studying in</h2>
+        <div class="studying__aut">
+          <img src="img/mortarboard.png" />
+          <h2>AUCKLAND UNIVERSITY OF TECHNOLOGY</h2>
+        </div>
+      </div>
+
+      <div class="about__focus block">
+        <h2>My focus is</h2>
+        <div class="focus__imgs">
+          <img class="focus__imgs-1" src="img/blockchain.png" />
+          <img class="focus__imgs-2" src="img/hero.png" />
+          <img class="focus__imgs-3" src="img/mining.png" />
+          <img class="focus__imgs-4" src="img/website.png" />
+        </div>
+        <h2 class="focus__text">Blockchain Development</h2>
+      </div>
+
+      <!-- My Journey and CV -->
+
+      <div class="my-journey block">
+        <h1 class="my-journey__text header">My journey</h1>
+        <div class="my-journey__details-img">
+          <img src="img/me-02.png" />
+          <div class="my-journey__details">
+            <p>2019</p>
+            <p>Learned about programming</p>
+            <p>2020</p>
+            <p>
+              Peer Mentor - AUT <br />
+              Software Developer - Develoft
+            </p>
+            <p>2021</p>
+            <p>Launched Pure - A Blockchain Social Media App</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="open-cv">
+        <button class="btn">Open My CV</button>
+        <img src="img/openCV.png" />
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="project">
+      <h2 class="project__title header">Personal Projects</h2>
+
+      <div class="project__displays">
+        <div class="project__displays-item">
+          <img class="btn" src="img/project-01.png" />
+          <button class="project__displays__btn btn">
+            Call Me Santa Claus
+          </button>
+        </div>
+        <div class="project__displays-item">
+          <img class="btn" src="img/project-02.png" />
+          <button class="project__displays__btn btn">Pure</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact">
+      <h2 class="header">Contact me</h2>
+
+      <div class="contact__background">
+        <form class="contact__form">
+          <label for="name">Name</label><br />
+          <input type="text" id="name" size="30" /><br /><br />
+
+          <label for="email">Email</label><br />
+          <input type="email" id="email" size="30" /><br /><br />
+
+          <label for="message">Message</label><br />
+          <textarea rows="5" cols="34" id="message">
+Hi, we are currently finding a developer. Can you send us your CV?&#13;&#10;&#13;&#10;Best regards,</textarea
+          ><br /><br />
+
+          <input class="contact__btn btn" type="submit" value="Done" />
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <a href="mailto:taylortran.it@gmail.com" class="footer__link"
+        >taylortran.it@gmail.com</a
+      >
+
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="http://codepen.io">
+            <img
+              src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNDA1LjMzMyA0MDUuMzMzIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0MDUuMzMzIDQwNS4zMzM7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIHN0eWxlPSJmaWxsOiMwMDk2ODg7IiBkPSJNMzczLjMzMywyNjYuODhjLTI0LjY5NiwwLjA0OC00OS4yNDEtMy44NTYtNzIuNzA0LTExLjU2M2MtMTAuOTcxLTMuODMxLTIzLjE2MS0xLjI1LTMxLjYzNyw2LjY5OQ0KCWwtNDYuMDM3LDM0LjczMWMtNDkuNDQxLTI0LjgyMy04OS41NTctNjQuOTMxLTExNC4zODktMTE0LjM2OGwzMy44MTMtNDQuOTI4YzguNTM3LTguNTQzLDExLjU5LTIxLjEzNiw3LjkxNS0zMi42NA0KCUMxNDIuNTU4LDgxLjMxNiwxMzguNjMzLDU2LjczNSwxMzguNjY3LDMyYzAtMTcuNjczLTE0LjMyNy0zMi0zMi0zMkgzMkMxNC4zMjcsMCwwLDE0LjMyNywwLDMyDQoJYzAuMjM1LDIwNi4wODksMTY3LjI0NCwzNzMuMDk4LDM3My4zMzMsMzczLjMzM2MxNy42NzMsMCwzMi0xNC4zMjcsMzItMzJWMjk4Ljg4QzQwNS4zMzMsMjgxLjIwNywzOTEuMDA2LDI2Ni44OCwzNzMuMzMzLDI2Ni44OHoiDQoJLz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K"
+            />
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="http://dribble.com">
+            <img
+              src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDM4MiAzODIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDM4MiAzODI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIHN0eWxlPSJmaWxsOiMwMDc3Qjc7IiBkPSJNMzQ3LjQ0NSwwSDM0LjU1NUMxNS40NzEsMCwwLDE1LjQ3MSwwLDM0LjU1NXYzMTIuODg5QzAsMzY2LjUyOSwxNS40NzEsMzgyLDM0LjU1NSwzODJoMzEyLjg4OQ0KCUMzNjYuNTI5LDM4MiwzODIsMzY2LjUyOSwzODIsMzQ3LjQ0NFYzNC41NTVDMzgyLDE1LjQ3MSwzNjYuNTI5LDAsMzQ3LjQ0NSwweiBNMTE4LjIwNywzMjkuODQ0YzAsNS41NTQtNC41MDIsMTAuMDU2LTEwLjA1NiwxMC4wNTYNCglINjUuMzQ1Yy01LjU1NCwwLTEwLjA1Ni00LjUwMi0xMC4wNTYtMTAuMDU2VjE1MC40MDNjMC01LjU1NCw0LjUwMi0xMC4wNTYsMTAuMDU2LTEwLjA1Nmg0Mi44MDYNCgljNS41NTQsMCwxMC4wNTYsNC41MDIsMTAuMDU2LDEwLjA1NlYzMjkuODQ0eiBNODYuNzQ4LDEyMy40MzJjLTIyLjQ1OSwwLTQwLjY2Ni0xOC4yMDctNDAuNjY2LTQwLjY2NlM2NC4yODksNDIuMSw4Ni43NDgsNDIuMQ0KCXM0MC42NjYsMTguMjA3LDQwLjY2Niw0MC42NjZTMTA5LjIwOCwxMjMuNDMyLDg2Ljc0OCwxMjMuNDMyeiBNMzQxLjkxLDMzMC42NTRjMCw1LjEwNi00LjE0LDkuMjQ2LTkuMjQ2LDkuMjQ2SDI4Ni43Mw0KCWMtNS4xMDYsMC05LjI0Ni00LjE0LTkuMjQ2LTkuMjQ2di04NC4xNjhjMC0xMi41NTYsMy42ODMtNTUuMDIxLTMyLjgxMy01NS4wMjFjLTI4LjMwOSwwLTM0LjA1MSwyOS4wNjYtMzUuMjA0LDQyLjExdjk3LjA3OQ0KCWMwLDUuMTA2LTQuMTM5LDkuMjQ2LTkuMjQ2LDkuMjQ2aC00NC40MjZjLTUuMTA2LDAtOS4yNDYtNC4xNC05LjI0Ni05LjI0NlYxNDkuNTkzYzAtNS4xMDYsNC4xNC05LjI0Niw5LjI0Ni05LjI0Nmg0NC40MjYNCgljNS4xMDYsMCw5LjI0Niw0LjE0LDkuMjQ2LDkuMjQ2djE1LjY1NWMxMC40OTctMTUuNzUzLDI2LjA5Ny0yNy45MTIsNTkuMzEyLTI3LjkxMmM3My41NTIsMCw3My4xMzEsNjguNzE2LDczLjEzMSwxMDYuNDcyDQoJTDM0MS45MSwzMzAuNjU0TDM0MS45MSwzMzAuNjU0eiIvPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo="
+            />
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="http://twitter.com">
+            <img
+              src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdGggc3R5bGU9ImZpbGw6IzVDNkJDMDsiIGQ9Ik0yNTUuOTY4LDUuMzI5QzExNC42MjQsNS4zMjksMCwxMjAuNDAxLDAsMjYyLjM1M2MwLDExMy41MzYsNzMuMzQ0LDIwOS44NTYsMTc1LjEwNCwyNDMuODcyDQoJYzEyLjgsMi4zNjgsMTcuNDcyLTUuNTY4LDE3LjQ3Mi0xMi4zODRjMC02LjExMi0wLjIyNC0yMi4yNzItMC4zNTItNDMuNzEyYy03MS4yLDE1LjUyLTg2LjI0LTM0LjQ2NC04Ni4yNC0zNC40NjQNCgljLTExLjYxNi0yOS42OTYtMjguNDE2LTM3LjYtMjguNDE2LTM3LjZjLTIzLjI2NC0xNS45MzYsMS43MjgtMTUuNjE2LDEuNzI4LTE1LjYxNmMyNS42OTYsMS44MjQsMzkuMiwyNi40OTYsMzkuMiwyNi40OTYNCgljMjIuODQ4LDM5LjI2NCw1OS45MzYsMjcuOTM2LDc0LjUyOCwyMS4zNDRjMi4zMDQtMTYuNjA4LDguOTI4LTI3LjkzNiwxNi4yNTYtMzQuMzY4Yy01Ni44MzItNi40OTYtMTE2LjYwOC0yOC41NDQtMTE2LjYwOC0xMjcuMDA4DQoJYzAtMjguMDY0LDkuOTg0LTUxLjAwOCwyNi4zNjgtNjguOTkyYy0yLjY1Ni02LjQ5Ni0xMS40MjQtMzIuNjQsMi40OTYtNjhjMCwwLDIxLjUwNC02LjkxMiw3MC40LDI2LjMzNg0KCWMyMC40MTYtNS42OTYsNDIuMzA0LTguNTQ0LDY0LjA5Ni04LjY0YzIxLjcyOCwwLjEyOCw0My42NDgsMi45NDQsNjQuMDk2LDguNjcyYzQ4Ljg2NC0zMy4yNDgsNzAuMzM2LTI2LjMzNiw3MC4zMzYtMjYuMzM2DQoJYzEzLjk1MiwzNS4zOTIsNS4xODQsNjEuNTA0LDIuNTYsNjhjMTYuNDE2LDE3Ljk4NCwyNi4zMDQsNDAuOTI4LDI2LjMwNCw2OC45OTJjMCw5OC43Mi01OS44NCwxMjAuNDQ4LTExNi44NjQsMTI2LjgxNg0KCWM5LjE4NCw3LjkzNiwxNy4zNzYsMjMuNjE2LDE3LjM3Niw0Ny41ODRjMCwzNC4zNjgtMC4zMiw2Mi4wOC0wLjMyLDcwLjQ5NmMwLDYuODgsNC42MDgsMTQuODgsMTcuNiwxMi4zNTINCglDNDM4LjcyLDQ3Mi4xNDUsNTEyLDM3NS44NTcsNTEyLDI2Mi4zNTNDNTEyLDEyMC40MDEsMzk3LjM3Niw1LjMyOSwyNTUuOTY4LDUuMzI5eiIvPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo="
+            />
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="http://github.com">
+            <img
+              src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxwb2x5Z29uIHN0eWxlPSJmaWxsOiNGMkYyRjI7IiBwb2ludHM9IjQ4NC45NzMsMTIyLjgwOCA0NTIuMjg4LDQ1MS4wMTcgNTkuNzEyLDQ1MS4wMTcgMzMuMzc5LDEyOS4xNiAyNTYsMjUzLjgwMiAJIi8+DQoJPHBvbHlnb24gc3R5bGU9ImZpbGw6I0YyRjJGMjsiIHBvaW50cz0iNDczLjg4Niw2MC45ODMgMjU2LDI2NS42NTkgMzguMTE0LDYwLjk4MyAyNTYsNjAuOTgzIAkiLz4NCjwvZz4NCjxwYXRoIHN0eWxlPSJmaWxsOiNGMTQzMzY7IiBkPSJNNTkuNzEyLDE1NS40OTN2Mjk1LjUyNEgyNC4xMzlDMTAuODEyLDQ1MS4wMTcsMCw0NDAuMjA2LDAsNDI2Ljg3OFYxMTEuOTY3bDM5LDEuMDYzTDU5LjcxMiwxNTUuNDkzDQoJeiIvPg0KPHBhdGggc3R5bGU9ImZpbGw6I0QzMkUyQTsiIGQ9Ik01MTIsMTExLjk2N3YzMTQuOTEyYzAsMTMuMzI3LTEwLjgxMiwyNC4xMzktMjQuMTUyLDI0LjEzOWgtMzUuNTZWMTU1LjQ5M2wxOS42OTItNDYuNTI1DQoJTDUxMiwxMTEuOTY3eiIvPg0KPHBhdGggc3R5bGU9ImZpbGw6I0YxNDMzNjsiIGQ9Ik01MTIsODUuMTIydjI2Ljg0NWwtNTkuNzEyLDQzLjUyNkwyNTYsMjk4LjU2MUw1OS43MTIsMTU1LjQ5M0wwLDExMS45NjdWODUuMTIyDQoJYzAtMTMuMzI3LDEwLjgxMi0yNC4xMzksMjQuMTM5LTI0LjEzOWgxMy45NzVMMjU2LDIxOS43OTJMNDczLjg4Niw2MC45ODNoMTMuOTYyQzUwMS4xODgsNjAuOTgzLDUxMiw3MS43OTQsNTEyLDg1LjEyMnoiLz4NCjxwb2x5Z29uIHN0eWxlPSJmaWxsOiNEMzJFMkE7IiBwb2ludHM9IjU5LjcxMiwxNTUuNDkzIDAsMTQ2LjIzNSAwLDExMS45NjcgIi8+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg=="
+            />
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="http://github.com">
+            <img
+              src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdGggc3R5bGU9ImZpbGw6IzE5NzZEMjsiIGQ9Ik00OTYsMTEyLjAxMUgyNzJjLTguODMyLDAtMTYsNy4xNjgtMTYsMTZzNy4xNjgsMTYsMTYsMTZoMTc3LjM3NmwtOTguMzA0LDc2LjQ0OGwtNzAuNDk2LTQ0LjgzMg0KCWwtMTcuMTUyLDI3LjAwOGw4MCw1MC44OGMyLjU5MiwxLjY2NCw1LjYsMi40OTYsOC41NzYsMi40OTZjMy40NTYsMCw2Ljk0NC0xLjEyLDkuODI0LTMuMzZMNDgwLDE2MC43MTV2MjA3LjI5NkgyNzINCgljLTguODMyLDAtMTYsNy4xNjgtMTYsMTZzNy4xNjgsMTYsMTYsMTZoMjI0YzguODMyLDAsMTYtNy4xNjgsMTYtMTZ2LTI1NkM1MTIsMTE5LjE3OSw1MDQuODMyLDExMi4wMTEsNDk2LDExMi4wMTF6Ii8+DQo8cGF0aCBzdHlsZT0iZmlsbDojMjE5NkYzOyIgZD0iTTI4Mi4yMDgsMTkuNjkxYy0zLjY0OC0zLjA0LTguNTQ0LTQuMzUyLTEzLjE1Mi0zLjM5MmwtMjU2LDQ4QzUuNDcyLDY1LjcwNywwLDcyLjI5OSwwLDgwLjAxMXYzNTINCgljMCw3LjY4LDUuNDcyLDE0LjMwNCwxMy4wNTYsMTUuNzEybDI1Niw0OGMwLjk2LDAuMTkyLDEuOTUyLDAuMjg4LDIuOTQ0LDAuMjg4YzMuNzEyLDAsNy4zMjgtMS4yOCwxMC4yMDgtMy42OA0KCWMzLjY4LTMuMDQsNS43OTItNy41ODQsNS43OTItMTIuMzJ2LTQ0OEMyODgsMjcuMjQzLDI4NS44ODgsMjIuNzMxLDI4Mi4yMDgsMTkuNjkxeiIvPg0KPHBhdGggc3R5bGU9ImZpbGw6I0ZBRkFGQTsiIGQ9Ik0xNDQsMzY4LjAxMWMtNDQuMDk2LDAtODAtNDMuMDcyLTgwLTk2czM1LjkwNC05Niw4MC05NnM4MCw0My4wNzIsODAsOTYNCglTMTg4LjA5NiwzNjguMDExLDE0NCwzNjguMDExeiBNMTQ0LDIwOC4wMTFjLTI2LjQ2NCwwLTQ4LDI4LjcwNC00OCw2NHMyMS41MzYsNjQsNDgsNjRzNDgtMjguNzA0LDQ4LTY0DQoJUzE3MC40NjQsMjA4LjAxMSwxNDQsMjA4LjAxMXoiLz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K"
+            />
+          </a>
+        </li>
+      </ul>
+
+      <div class="made-with-love">
+        <p>@New Zealand, 2021</p>
+      </div>
+    </footer>
+  </body>
+</html>
