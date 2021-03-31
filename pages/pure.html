@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Taylor - Developer Portfolio</title>
+    <title>Pure</title>
 
     <link
       rel="stylesheet"
@@ -15,13 +15,13 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ropa+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/index.js"></script>
+    <script src="../js/index.js"></script>
   </head>
-
   <body>
+    <!-- TODO: Use php to include header and footer -->
     <header>
       <button class="nav-toggle" aria-label="toggle navigation">
         <span class="hamburger"></span>
@@ -29,150 +29,33 @@
 
       <nav class="nav">
         <ul class="nav__list">
-          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
           <li class="nav__item">
-            <a href="#about" class="nav__link">About me</a>
+            <a href="index.html#home" class="nav__link">Home</a>
           </li>
           <li class="nav__item">
-            <a href="#my-journey" class="nav__link">My journey</a>
+            <a href="index.html#about" class="nav__link">About me</a>
           </li>
           <li class="nav__item">
-            <a href="#project" class="nav__link">Projects</a>
+            <a href="index.html#my-journey" class="nav__link">My journey</a>
           </li>
           <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact me</a>
+            <a href="index.html#project" class="nav__link">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#contact" class="nav__link">Contact me</a>
           </li>
         </ul>
       </nav>
     </header>
 
-    <!-- Home -->
-    <section class="home" id="home">
-      <div class="hi block">
-        <h2 class="hi-welcome hide-me">Hi, I am Taylor</h2>
-        <img src="img/me-01.png" class="hide-me" />
-      </div>
-
-      <div class="role block hide-me">
-        <h2>My role is a Software Developer</h2>
-        <img src="img/developer.png" class="hide-me" />
-      </div>
-
-      <div class="why-developer block">
-        <h2 class="why-developer because hide-me">Because...</h2>
-        <div class="developer-is-cool">
-          <h2 class="developer-is-cool__text hide-me">
-            Developer is very cool
-          </h2>
-          <img src="img/cool.png" class="hide-me" />
-        </div>
-      </div>
-    </section>
-
-    <!-- About -->
-    <section class="about" id="about">
-      <h1 class="header about__about-me hide-me">About me</h1>
-      <div class="living block">
-        <h2 class="hide-me">I am living in Auckland</h2>
-        <img src="img/city.png" class="hide-me" />
-      </div>
-
-      <div class="about__studying block">
-        <h2 class="about__studying__in hide-me">I am studying in</h2>
-        <div class="studying__aut hide-me">
-          <img src="img/mortarboard.png" />
-          <h2>AUCKLAND UNIVERSITY OF TECHNOLOGY</h2>
-        </div>
-      </div>
-
-      <div class="about__focus block">
-        <h2 class="hide-me">I mainly focus on</h2>
-        <div class="focus__imgs">
-          <img class="focus__imgs-1 hide-me" src="img/blockchain.png" />
-          <img class="focus__imgs-2 hide-me" src="img/hero.png" />
-          <img class="focus__imgs-3 hide-me" src="img/mining.png" />
-          <img class="focus__imgs-4 hide-me" src="img/website.png" />
-        </div>
-        <h2 class="focus__text hide-me">Blockchain Development</h2>
-      </div>
-
-      <!-- My Journey and CV -->
-
-      <div class="my-journey block" id="my-journey">
-        <h1 class="my-journey__text header hide-me">My journey</h1>
-        <div class="my-journey__details-img">
-          <img src="img/me-02.png" class="hide-me" />
-          <div class="my-journey__details">
-            <p class="hide-me">2019</p>
-            <p class="hide-me">Learned about programming</p>
-            <p class="hide-me">2020</p>
-            <p class="hide-me">
-              Peer Mentor - AUT <br />
-              Software Developer - Develoft
-            </p>
-            <p class="hide-me">2021</p>
-            <p class="hide-me">Launched Pure - A Blockchain Social Media App</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="open-cv">
-        <a href="cv.html" target="_blank" class="btn hide-me">Open My CV</a>
-        <img src="img/openCV.png" class="hide-me" />
-      </div>
-    </section>
-
     <!-- Projects -->
-    <section class="project" id="project">
-      <h2 class="project__title header hide-me">Personal Projects</h2>
 
-      <div class="project__displays">
-        <div class="project__displays-item">
-          <h3 class="project__displays__name hide-me">Call Me Santa Claus</h3>
-          <a href="./pages/voicebot.html">
-            <img class="btn hide-me" src="img/project-01.png"
-          /></a>
-        </div>
-        <div class="project__displays-item">
-          <h3 class="project__displays__name hide-me">Pure</h3>
-          <a href="./pages/pure.html">
-            <img class="btn hide-me" src="img/project-02.png" />
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact -->
-    <section class="contact" id="contact">
-      <h2 class="header hide-me">Contact me</h2>
-
-      <div class="contact__background">
-        <form class="contact__form">
-          <label for="name" class="hide-me">Name</label><br />
-          <input type="text" id="name" size="30" class="hide-me" /><br /><br />
-
-          <label for="email" class="hide-me">Email</label><br />
-          <input
-            type="email"
-            id="email"
-            size="30"
-            class="hide-me"
-          /><br /><br />
-
-          <label for="message" class="hide-me">Message</label><br />
-          <textarea rows="5" cols="34" id="message" class="hide-me">
-Hi, we are currently finding a developer. Can you send us your CV?&#13;&#10;&#13;&#10;Best regards,</textarea
-          ><br /><br />
-
-          <input
-            class="contact__btn btn"
-            type="submit"
-            value="Done"
-            class="hide-me"
-          />
-        </form>
-      </div>
-    </section>
+    <iframe
+      width="420"
+      height="315"
+      src="https://www.youtube.com/embed/1CGd6qBdlBU"
+    >
+    </iframe>
 
     <footer class="footer hide-me">
       <a href="mailto:taylortran.it@gmail.com" class="footer__link"
